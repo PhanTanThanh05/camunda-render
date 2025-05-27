@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk-slim
+FROM openjdk:21-jdk-slim
 WORKDIR /app
 COPY c7run /app/c7run
 WORKDIR /app/c7run
